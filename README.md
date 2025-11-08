@@ -29,17 +29,22 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run migrations:
+4. Create migrations:
+```bash
+python manage.py makemigrations
+```
+
+5. Run migrations:
 ```bash
 python manage.py migrate
 ```
 
-5. Populate the database with sample data:
+6. Populate the database with sample data:
 ```bash
 python populate_db.py
 ```
 
-6. Start the development server:
+7. Start the development server:
 ```bash
 python manage.py runserver
 ```
