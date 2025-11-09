@@ -89,6 +89,8 @@ The application will be available at `http://localhost:3000`
 - Filter by active status (click Active Schedules card)
 - Filter by success (click Success Rate card)
 - Create automation modal with form
+- Update automation model with form
+- Delete automation
 
 ### Backend
 - RESTful API with Django REST Framework
